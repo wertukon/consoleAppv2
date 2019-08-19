@@ -12,6 +12,7 @@ namespace ConsoleApp1
             if (a < 5)
             {
                 a = a * a;
+                // Добавил чуть-чуть комментариев
             }
             else
             {
