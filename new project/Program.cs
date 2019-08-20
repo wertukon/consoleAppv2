@@ -9,16 +9,9 @@ namespace ConsoleApp1
             Console.WriteLine("Введите любое число");
             string x = Console.ReadLine();
             int a = Convert.ToInt32(x);
-            if (a < 5)
-            {
-                a = a * a;
-                // Добавил чуть-чуть комментариев
-            }
-            else
-            {
-                a = a * 100;
-                // Изменил логику
-            }    
+
+            a < 5 ? a = a * a : a = a * 10;
+
             Console.WriteLine(a);
             Console.ReadKey();
         }
