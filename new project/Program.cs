@@ -16,7 +16,8 @@ namespace ConsoleApp1
             }
             else
             {
-                a = a * 10;
+                a = a * 100;
+                // Изменил логику
             }    
             Console.WriteLine(a);
             Console.ReadKey();
